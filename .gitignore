@@ -1,0 +1,3 @@
+books-backend/.env
+books-backend/node_modules/*
+books-backend/node_modules

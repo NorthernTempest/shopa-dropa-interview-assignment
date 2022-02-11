@@ -1,0 +1,1 @@
+Requires PostgreSQL (https://www.postgresql.org/)
