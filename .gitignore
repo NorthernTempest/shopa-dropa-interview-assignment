@@ -1,3 +1,7 @@
-books-backend/.env
 books-backend/node_modules/*
 books-backend/node_modules
+
+books-frontend/node_modules/*
+books-frontend/node_modules
+books-frontend/build
+books-frontend/coverage

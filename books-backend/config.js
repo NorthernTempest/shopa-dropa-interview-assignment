@@ -1,13 +1,13 @@
-const env = process.env;
+require('dotenv').config();
 
 const config = {
 	db: {
-		host: env.PGHOST || 'localhost',
-		port: env.PGPORT || '5432',
-		user: env.PGUSER || 'shopa-dropa-books-user',
-		password: env.PGPASSWORD || 'password',
-		database: env.PGDATABASE || 'postgres',
+		host: process.env.PGHOST,
+		port: process.env.PGPORT,
+		user: process.env.PGUSER,
+		password: process.env.PGPASSWORD,
+		database: process.env.PGDATABASE,
 	}
 }
 
-export default config
+module.exports = config;
